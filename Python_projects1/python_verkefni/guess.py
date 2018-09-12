@@ -4,7 +4,7 @@ number = int(number_str)
 guess_str = input("Guess a number: ")
 guess = int(guess_str)
 
-while 0 <= guess <= 100:
+while 0 <= guess <= 100 and 0 <= number <= 100:
     if guess > number:
         print("Guessed Too High.")
     elif guess < number:

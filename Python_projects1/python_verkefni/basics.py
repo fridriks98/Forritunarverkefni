@@ -11,5 +11,5 @@ US_population = 307357870
 new_population = US_population + birth - death + new_immigrants
 
 
-print("New population after", years_int, " years is "\
-, int(new_population)) # do not change this line
+print("New population after",years_int, "years is"\
+,int(new_population)) # do not change this line
